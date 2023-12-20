@@ -1,0 +1,146 @@
+#home {
+  width: 100vw;
+  min-height: 95vh;
+  height: auto;
+  position: relative;
+}
+
+.btn {
+  padding: 14px 45px;
+  background-color: #e88f00;
+  border-radius: 42px;
+  width: 9rem;
+}
+
+.btn p {
+  margin: 0;
+  color: #c7cad9;
+  font-size: 1.1vw;
+}
+
+.background {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.background video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.homeContent {
+  width: 100%;
+  position: absolute;
+  z-index: 10;
+  color: #eaebec;
+  padding: 8vh 6vw;
+  display: flex;
+  flex-direction: column;
+}
+.homeContent span {
+  color: #e88f00 !important;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity here */
+}
+
+.mainContent {
+  margin: 0 30% 0 0;
+}
+
+.mainHeading h1 {
+  font-size: 3.4vw;
+}
+.smallheading p {
+  font-size: 1.4vw;
+}
+.smallheadint2 p {
+  font-size: 1.4vw;
+}
+
+@media (max-width: 770px) {
+  .mainHeading h1 {
+    font-size: 3.9vw;
+  }
+  .smallheading p {
+    font-size: 1.9vw;
+  }
+  .smallheadint2 p {
+    font-size: 1.9vw;
+  }
+  #home {
+    height: 80vh;
+  }
+}
+@media (max-width: 450px) {
+  .mainContent {
+    margin: 0 15% 0 0;
+  }
+
+  .mainHeading h1 {
+    font-size: 5vw;
+  }
+  .smallheading p {
+    font-size: 2.9vw;
+  }
+  .smallheading {
+    margin-top: 2rem;
+  }
+  .smallheadint2 {
+    margin-top: 3rem;
+  }
+  .smallheadint2 p {
+    font-size: 2.9vw;
+  }
+  .homeContent {
+    gap: 2rem;
+  }
+  #homeBTN {
+    margin-top: 2rem;
+  }
+  .smallheadint2 p {
+    font-size: 4.5vw;
+  }
+  .smallheading p {
+    font-size: 4.5vw;
+  }
+  .mainHeading h1 {
+    font-size: 6vw;
+    font-weight: 900;
+  }
+}
+@media (max-width: 330px) {
+  .mainContent {
+    margin: 0 10% 0 0;
+  }
+
+  .mainHeading h1 {
+    font-size: 6vw;
+  }
+  .smallheading p {
+    font-size: 4.5vw;
+  }
+  .smallheading {
+    margin-top: 2rem;
+  }
+  .smallheadint2 {
+    margin-top: 3rem;
+  }
+  .smallheadint2 p {
+    font-size: 4.5vw;
+  }
+  .homeContent {
+    gap: 2rem;
+  }
+  #homeBTN {
+    margin-top: 2rem;
+  }
+}

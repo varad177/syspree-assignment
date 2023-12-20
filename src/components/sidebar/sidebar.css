@@ -1,0 +1,44 @@
+/* Sidebar.css */
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 20px;
+}
+
+.sidebar.open {
+  width: 200px;
+}
+
+.hamburger {
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar li {
+  padding: 8px;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}
+
+.sidebar li:hover {
+  background-color: #555;
+}
+
+#hamNames {
+  flex-direction: column;
+}

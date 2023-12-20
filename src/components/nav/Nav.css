@@ -1,0 +1,253 @@
+nav {
+  height: 22vh;
+  /* width: 100%; */
+  background-color: #13235b;
+  padding: 1vh 4.5vw;
+}
+
+#hancontact{
+  flex-direction: column;
+}
+
+.ham {
+  color: white;
+  display: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.navTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #233369;
+}
+.contacts {
+  color: white;
+  display: none;
+}
+.navTop {
+  height: 46%;
+}
+.navBottom {
+  height: 54%;
+}
+
+.navTopLeft {
+  display: flex;
+  gap: 30px;
+}
+
+.navTopLeft i {
+  font-size: 4vh;
+  color: #ffffff;
+}
+
+.navTopRight {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.media {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.mediaIcon {
+  padding: 14px;
+  background-color: #3b4877;
+  border-radius: 4px;
+}
+
+.media i {
+  color: #e9b605;
+  margin: 4px;
+
+  font-size: 3.5vh;
+}
+
+.infoName {
+  margin: 0;
+  color: #9ba0b0;
+  font-size: 1vw;
+}
+.MainInfo {
+  margin: 0;
+  color: #caa010;
+  font-size: 1.2vw;
+}
+
+.callIcon {
+  font-size: 3.5vh;
+  color: #e9b605;
+}
+
+.mediaIcon2 {
+  background-color: #3b4877;
+  padding: 16px 14px 12px 14px;
+  border-radius: 4px;
+}
+
+.navBottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 100%;
+  width: 15vw;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.navNamesWrapper {
+  display: flex;
+  align-items: center;
+  gap: 3vw;
+}
+
+.navNames ul {
+  display: flex;
+  align-items: center;
+  gap: 3vw;
+}
+.navNames ul li a {
+  color: #c7cad9 !important;
+  font-size: 1vw;
+}
+
+.btn {
+  padding: 14px 45px;
+  background-color: #e88f00;
+  border-radius: 42px;
+  width: 9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn p {
+  margin: 0;
+  color: #c7cad9;
+  font-size: 1.1vw;
+}
+
+@media (max-width: 2000px) {
+  .btn {
+    padding: 11px 35px;
+    width: 6rem;
+  }
+}
+@media (max-width: 1440px) {
+  .navNames ul li a {
+    font-size: 18px;
+  }
+
+  .btn p {
+    font-size: 18px;
+  }
+
+  .btn {
+    padding: 11px 35px;
+    width: 6rem;
+  }
+  .navTopLeft {
+    gap: 22px;
+  }
+
+  .MainInfo {
+    font-size: 18px;
+  }
+
+  .infoName {
+    font-size: 14px;
+  }
+
+  .mediaIcon {
+    padding: 8px;
+  }
+  .mediaIcon2 {
+    padding: 11px 11px 8px 11px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .navNames ul li a {
+    font-size: 16px;
+  }
+  .btn p {
+    font-size: 16px;
+  }
+
+  .btn {
+    padding: 9px 29px;
+  }
+
+  .navNames ul {
+    gap: 2vw;
+  }
+
+  .MainInfo {
+    font-size: 16px;
+  }
+
+  .infoName {
+    font-size: 13px;
+  }
+}
+@media (max-width: 768px) {
+  .ham {
+    display: block;
+  }
+  .navNames ul li a {
+    display: none;
+  }
+}
+@media (max-width: 550px) {
+  .media {
+    display: none;
+  }
+  .contacts {
+    display: block !important;
+  }
+  .logo {
+    height: 100%;
+    width: 25vw;
+  }
+  #navbtn {
+    display: none;
+  }
+
+  nav{
+    height: 18vh;
+  }
+  .navTopLeft i {
+    font-size: 3vh;
+    color: #ffffff;
+}
+}
+
+
+
+.hammedia {
+
+  width: 100%;
+  /* height: 3rem; */
+  display: flex;
+  gap: 2rem;
+  margin: 1rem 0 ;
+}
